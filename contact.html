@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mexant</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/maxlogo.png" alt="logo img"></a>
+            <div class="mobilemenu">
+                <i class='bxr  bx-menu-left' id="menutoggle"></i>
+            </div>
+        </div>
+
+        <div class="menubar" id="navbar">
+            <ul>
+                <li><a href="#home" class="home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li class="supermenu"><a href="javascript:void(0)">Blogs<i class='bxr  bx-chevron-down'></i> </a>
+                    <ul class="submenu">
+                        <li><a href="#">Our service</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">Testimonials</a></li>
+                <li class="btncontact"><a href="#contact">Contact Support</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h6>KEEP IN TOUCH</h6>
+            <h1>Contact <span>Us</span></h1>
+        </div>
+    </section>
+
+    <section class="contact-body">
+        <div class="container contact-wrapper">
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class='bx bxs-phone-call'></i>
+                    <div>
+                        <h4>Call Us</h4>
+                        <p>+1 234 567 890</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class='bx bxs-envelope'></i>
+                    <div>
+                        <h4>Email Us</h4>
+                        <p>support@mexant.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Full Name">
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Email Address">
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+                        <small class="error-msg"></small>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message <i class='bx bx-paper-plane'></i></button>
+                    <div id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <br>
+        <div class="footmenu">
+            <ul>
+                <li><a href="">Terms of Service</a></li>
+                <li>|</li>
+                <li><a href="">Privacy Policy</a></li>
+                <li>|</li>
+                <li><a href="">Contact us</a></li>
+                <li>|</li>
+                <li><a href="">Security</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="foot">
+            <p>© 2025 MaX-Agent bussiness MeN Co., Ltd. All Rights Reserved.</p><br>
+            <p>Designed by <em style="color: #ff511a; cursor: pointer; ">Nav</em></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
