@@ -278,6 +278,7 @@ header {
 .adcontent p {
     font-size: 1rem;
     padding: 5px;
+    color: #1f2235;
 }
 
 .adrow {
@@ -445,6 +446,7 @@ header {
     border-bottom: 1px solid #ddd;
     padding: 20px 10px;
     text-align: left;
+    color: #1f2235;
 }
 
 /* .lefttables th {
